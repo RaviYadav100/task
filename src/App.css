@@ -1,0 +1,84 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: #f9f9f9;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.incident-list {
+  margin-bottom: 40px;
+}
+
+.incident-card {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: rgb(105, 189, 8);
+ 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.form input, .form textarea {
+  width: 98%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form {
+  /* background: #433E3F; */
+  background:#0C4767;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  margin-right: 10px;
+}
+.delete-button {
+  margin-left: 10px;
+  
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #d9363e;
+}
+
+nav{
+  background-color:#A8763E;
+  padding-top:6px;
+  padding-bottom:  6px;
+  margin-bottom: 20px;
+  height:80px;
+ 
+}
